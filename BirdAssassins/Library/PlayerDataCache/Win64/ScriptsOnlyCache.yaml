@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AmmoManager
+    - Billboard
     - Bullet
     - Combat
     - MainMenu
@@ -33,7 +34,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     com.unity.multiplayer-hlapi.Runtime.dll:
     - UnityEngine.Networking.NetworkAnimator
-    - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
     - UnityEngine.Networking.NetworkManager
     - UnityEngine.Networking.NetworkManagerHUD
@@ -68,6 +68,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -81,50 +85,56 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11182}
     - Class: 114
-      Script: {instanceID: 11366}
+      Script: {instanceID: 11226}
     - Class: 114
-      Script: {instanceID: 11378}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11380}
     - Class: 114
-      Script: {instanceID: 11420}
+      Script: {instanceID: 11416}
     - Class: 114
-      Script: {instanceID: 11458}
+      Script: {instanceID: 11422}
     - Class: 114
-      Script: {instanceID: 11506}
+      Script: {instanceID: 11462}
     - Class: 114
-      Script: {instanceID: 11624}
+      Script: {instanceID: 11510}
     - Class: 114
-      Script: {instanceID: 11634}
+      Script: {instanceID: 11628}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11638}
     - Class: 114
-      Script: {instanceID: 11856}
+      Script: {instanceID: 11726}
     - Class: 114
-      Script: {instanceID: 11992}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 11996}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 12182}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 12316}
     - Class: 114
       Script: {instanceID: 12564}
     - Class: 114
-      Script: {instanceID: 12778}
+      Script: {instanceID: 12568}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12782}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 13186}
+      Script: {instanceID: 13060}
     - Class: 114
-      Script: {instanceID: 13214}
+      Script: {instanceID: 13190}
     - Class: 114
-      Script: {instanceID: 13260}
+      Script: {instanceID: 13218}
+    - Class: 114
+      Script: {instanceID: 13264}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 122
+      Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -170,29 +180,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11182}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11416}
     - Class: 114
-      Script: {instanceID: 11856}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 11890}
+      Script: {instanceID: 11894}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 12560}
+      Script: {instanceID: 12564}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 12584}
     - Class: 114
-      Script: {instanceID: 12778}
+      Script: {instanceID: 12782}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 12886}
+      Script: {instanceID: 12890}
     - Class: 114
-      Script: {instanceID: 13018}
+      Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 13138}
+      Script: {instanceID: 13142}
     - Class: 114
-      Script: {instanceID: 13260}
+      Script: {instanceID: 13264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -222,6 +232,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Billboard
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -296,7 +312,7 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 655675a941ea756088027703b43352a4
+      Hash: 59912bb34021ffdc2330ca22733d1d68
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MouseLook
@@ -306,6 +322,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: JumpPad
   - hash:
       serializedVersion: 2
       Hash: 234235b9fb07320d11497e08a726cc56
@@ -458,7 +480,7 @@ ScriptsOnlyBuild:
     className: AsteroidController
   - hash:
       serializedVersion: 2
-      Hash: c7a1cfbcd815f35b6700d8538ef4094e
+      Hash: d394f207ac76730620d1b597d41354b7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Combat
@@ -548,6 +570,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: eab044e460ac1e07a28f0f1f6d890f71
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AmmoSound
+  - hash:
+      serializedVersion: 2
       Hash: 3f6497af7f33bfe55504c5c173f9c404
     assemblyName: Assembly-CSharp.dll
     namespaceName: SimpleHealthBar_SpaceshipExample
@@ -564,12 +592,6 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkStartPosition
-  - hash:
-      serializedVersion: 2
-      Hash: 7d59ca437c4428d129be16e907ecf278
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMoveNetwork
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -758,7 +780,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 7e05122ab10b23eb65d227205246fdd7
+      Hash: 124a649507620cb60e965dfeca34006e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
